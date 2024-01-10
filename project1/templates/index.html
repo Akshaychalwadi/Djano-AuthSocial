@@ -1,0 +1,13 @@
+{% load socialaccount %}
+
+<!DOCTYPE html>
+
+<head>
+    <title>Social Login</title>
+</head>
+<body>
+    Welcome to Project
+    <button><a href="{% provider_login_url "google" %}?next=/">Google Login</button>
+</body>
+
+</html>
